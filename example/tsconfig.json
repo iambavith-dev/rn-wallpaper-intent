@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "rn-wallpaper-intent": ["../src/index"],
+      "rn-wallpaper-intent/*": ["../src/*"]
+    }
+  }
+}
